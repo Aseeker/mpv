@@ -223,6 +223,7 @@ static bool config_window_x11(struct MPGLContext *ctx, uint32_t d_width,
         GLX_BLUE_SIZE, 1,
         GLX_ALPHA_SIZE, 0,
         GLX_DOUBLEBUFFER, True,
+        GLX_X_VISUAL_TYPE, GLX_TRUE_COLOR,
         None
     };
     GLXFBConfig fbc = NULL;
